@@ -1,4 +1,4 @@
-# CollectionBuilder-CONTENTdm
+# WSULS CollectionBuilder Project
 
 CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories.
 
