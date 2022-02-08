@@ -8,9 +8,9 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://cdm17409.contentdm.oclc.org/digital
+url: https://cdm17409.contentdm.oclc.org
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /collection/oclcsample
+baseurl: /digital/collection/oclcsample
 # location of code, the full url to your github repository
 source-code: https://github.com/MariaNuccilli/wsuls-collectionbuilder
 
@@ -18,21 +18,21 @@ source-code: https://github.com/MariaNuccilli/wsuls-collectionbuilder
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: OCLC Sample Collection
+title: Collection Builder CDM Skin
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Trying Out CollectionBuilder
+tagline: Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s." 
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest 
+#keywords: idaho;history;inland northwest 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 # Organization branding
-# organization-name: "Digital Initiatives, University of Idaho Library"
-# organization-link: https://www.lib.uidaho.edu/digital/
-# organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
-# organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+organization-name: "Digital Initiatives, University of Idaho Library"
+organization-link: https://www.lib.uidaho.edu/digital/
+organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
+organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
 
 
 ##########
@@ -44,7 +44,7 @@ metadata: oclc-sample-collection
 # contentdm collection name, matches collection ID used by CDM
 cdm-collection-id: oclcsample
 # CONTENTdm server url
-cdm-url: https://cdm17409.contentdm.oclc.org
+cdm-url: https://cdm17409.contentdm.oclc.org/
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -84,4 +84,3 @@ exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
 sass:
   style: compressed
- 
